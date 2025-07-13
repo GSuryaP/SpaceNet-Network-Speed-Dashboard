@@ -39,10 +39,10 @@ alert_text = tk.Text(sidebar_frame, height=15, width=30, state=tk.DISABLED, bg="
 alert_text.pack(fill=tk.BOTH, expand=True)
 
 # Load Images
-rocket_img = mpimg.imread("C:/Users/drish/OneDrive/Desktop/CN_LAB/rocket.png")
-alien_img = mpimg.imread("C:/Users/drish/OneDrive/Desktop/CN_LAB/alien.png")
-satellite_img = mpimg.imread("C:/Users/drish/OneDrive/Desktop/CN_LAB/satellite.png")
-background_img = mpimg.imread("C:/Users/drish/OneDrive/Desktop/CN_LAB/space_bg.png")
+rocket_img = mpimg.imread("C:/Users/gonel/OneDrive/Desktop/CN_LAB/rocket.png")
+alien_img = mpimg.imread("C:/Users/gonel/OneDrive/Desktop/CN_LAB/alien.png")
+satellite_img = mpimg.imread("C:/Users/gonel/OneDrive/Desktop/CN_LAB/satellite.png")
+background_img = mpimg.imread("C:/Users/gonel/OneDrive/Desktop/CN_LAB/space_bg.png")
 
 # Matplotlib Figure (Light Theme)
 fig, ax = plt.subplots(figsize=(6, 4), facecolor="white")
